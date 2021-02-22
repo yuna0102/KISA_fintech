@@ -1,4 +1,4 @@
-var car = {
+var car1 = {
     name : "sonata",
     ph : "500ph",
     start : function() {
@@ -9,7 +9,6 @@ var car = {
     }
 }
 
-car.start();
 
 var car2 = {
     name : "venz",
@@ -22,4 +21,5 @@ var car2 = {
     }
 }
 
-car2.start();
+cars = [car1, car2];
+console.log(cars);
