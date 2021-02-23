@@ -11,6 +11,7 @@ app.set('view engine', 'ejs');
 
 
 // connection.end();
+//express 각 url에 따른 data 수집
 app.get('/', function (req, res) {
     res.send('Hello World');
 })
@@ -22,6 +23,7 @@ app.get('/user', function (req, res) {
     });
 })
 
+//특정 값을 반환하는 것이 아니라 ejsTest.ejs라는 파일을 render 시킴
 app.get('/ejs', function (req, res) {
     res.render('ejsTest.ejs');
 })
