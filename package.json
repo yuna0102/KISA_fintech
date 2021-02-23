@@ -1,0 +1,25 @@
+{
+  "name": "20210222fintech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuna0102/KISA_fintech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuna0102/KISA_fintech/issues"
+  },
+  "homepage": "https://github.com/yuna0102/KISA_fintech#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
