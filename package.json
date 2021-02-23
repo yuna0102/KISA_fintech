@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/yuna0102/KISA_fintech#readme",
   "dependencies": {
+    "mysql": "^2.18.1",
     "request": "^2.88.2",
     "xml-js": "^1.6.11",
     "xml2js": "^0.4.23"
