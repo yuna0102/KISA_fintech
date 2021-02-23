@@ -1,3 +1,5 @@
+//express라는 framework를 통해 서버를 띄우는 것을 연습
+//view를 담당하는 템플릿엔진을 통해 구조화
 const express = require('express');
 const app = express();
 

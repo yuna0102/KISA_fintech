@@ -1,3 +1,5 @@
+//xml형식의 파일을 불러와서 띄우는 법
+//원하는 정보만 찾아서 가져오는 법
 const request = require('request');
 var parseString = require('xml2js').parseString;
 

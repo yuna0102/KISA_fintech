@@ -1,3 +1,4 @@
+//js 프로젝트와 서버를 연결시켜서 페이지 띄우는 법
 var http = require("http");
 
 console.log("server started")

@@ -1,3 +1,4 @@
+//database에 있는 data를 가져오는 것
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
     host     : 'localhost',
