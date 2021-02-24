@@ -27,6 +27,10 @@
                     userData2 : userInput2
                 },
                 success: function (data) {
+                    console.log(data);
+                    if(data === true) {
+                        alert("요청성공");
+                    }
                 },
             });
         })
