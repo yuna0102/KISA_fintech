@@ -18,8 +18,8 @@ app.set('view engine', 'ejs');
 //뷰엔진으로 ejs 사용한다
 
 
-// connection.end();
 
+// connection.end();
 app.get('/', function (req, res) {
     res.send('Hello World');
 })//express 각 url에 따른 data 수집
@@ -35,11 +35,16 @@ app.get('/ejs', function (req, res) {
     res.render('ejsTest.ejs');
 })//특정 값을 반환하는 것이 아니라 ejsTest.ejs라는 파일을 render 시킴
 
+app.get('/designTest', function (req, res) {
+    res.render('designSample');
+})//designTest라는 url에서 designSample 페이지 띄움
+
 app.post('/userData', function(req, res) {
     console.log("사용자의 요청이 발생했습니다.");
     console.log(req.body); //ejs 파일에서 data가 req의 body에 담겨옴
     res.send(true);
 })
+
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
