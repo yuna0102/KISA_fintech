@@ -28,6 +28,9 @@ app.get('/ejs', function (req, res) {
     res.render('ejsTest.ejs');
 })
 
+app.post('/userData', function(req, res) {
+    console.log("사용자의 요청이 발생했습니다.");
+})
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
@@ -40,4 +43,4 @@ var connection = mysql.createConnection({
 connection.connect();
 
 
-app.listen(3000)
+app.listen(3000);
